@@ -1,0 +1,30 @@
+.signin {
+  color: white;
+  background-color: #4CAF50;
+  border: none;
+  margin-left: 20px;
+  border-radius: 8px;
+  padding: 14px 40px;
+  margin-top: 20px;
+  font-size: large;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transition: all 0.5s;
+  cursor: pointer;
+  
+}
+.login {
+  color: white;
+  background-color: rgb(245, 8, 8);
+  border: none;
+  margin-left: 20px;
+  border-radius: 8px;
+  padding: 14px 40px;
+  font-size: large;
+  margin-top: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.div1{
+
+  width: 350px;
+  margin: 250px auto;
+}
