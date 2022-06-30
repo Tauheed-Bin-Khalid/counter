@@ -16,11 +16,11 @@ function App() {
   return (
     <div style={{ textAlign: "center" }}>
       <h1>
-        Counter
+        Welcome to Counter
       </h1>
       <h4>
         click + to add <br></br>
-        click - to minus
+        click - to minus   
       </h4>
       <h1 style={{ color:number>0?"green":number==0?"black":"red"}}>{number}</h1>
 
