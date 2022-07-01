@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css"
 import Book from "./Book";
+import Spread from "./Spread";
 import Table from "./table";
 
 
@@ -42,6 +43,7 @@ function App() {
         {number>=10?"tauheed":"rehman"}
       </h4>
       <Table/>
+      {/* <Spread/> */}
         
     </div>
 

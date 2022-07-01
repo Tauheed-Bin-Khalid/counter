@@ -10,7 +10,13 @@ function Table() {
     { id: 4, name: 'zain', rollno: 128 },
 
   ]
-  const [people, setpeople] = useState(data)
+  const [people, setPeople] = useState(data)
+
+  const handleDelete=(id)=> {
+
+   setPeople(people.filter((person)=>id!=person.id))
+  }
+  
 
 
 
@@ -28,6 +34,9 @@ function Table() {
             <th style={{ borderBottom: "1px solid #ddd" }}>
               Name
             </th>
+            <th style={{ borderBottom: "1px solid #ddd" }}>
+              Action
+            </th>
           </tr >
 
 
@@ -40,6 +49,12 @@ function Table() {
                   </td>
                   <td style={{ borderBottom: "1px solid #ddd" }}>
                     {name}
+                  </td>
+                  <td style={{ borderBottom: "1px solid #ddd" }}>
+                    <button onClick={()=>{
+                        handleDelete(id);
+                    }}
+                    >Delete</button>
                   </td>
                 </tr>
               )
