@@ -28,3 +28,9 @@
   width: 350px;
   margin: 250px auto;
 }
+
+.tr:hover {background-color: coral};
+
+th, td{
+  border-bottom: 1px solid #ddd;
+}

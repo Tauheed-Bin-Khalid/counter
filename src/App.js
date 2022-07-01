@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./App.css"
 import Book from "./Book";
+import Table from "./table";
+
 
 function App() {
   
@@ -39,6 +41,7 @@ function App() {
         <h4 style={{ color:number>=10?"green":"red"}}>
         {number>=10?"tauheed":"rehman"}
       </h4>
+      <Table/>
         
     </div>
 
