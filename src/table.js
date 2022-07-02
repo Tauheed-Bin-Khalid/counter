@@ -14,7 +14,7 @@ function Table() {
 
   const handleDelete=(id)=> {
 
-   setPeople(people.filter((person)=>id!=person.id))
+   setPeople(people.filter((data)=>id!=data.id))
   }
   
 

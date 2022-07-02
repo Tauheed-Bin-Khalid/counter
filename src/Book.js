@@ -3,13 +3,13 @@ import Author from './Author'
 import Image from './Image'
 import Title from './Title'
 
-function Book({ img, title, author,children }) {
+function Book({ img, title, author }) {
     return (
         <article>
             <Image img={img} />
             <Title title={title} />
             <Author author={author} />
-            {children}
+            {/* {children} */}
         </article>
     )
 }
