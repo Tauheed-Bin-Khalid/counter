@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import "./App.css"
 import Book from "./Book";
 import Counter from "./Counter";
@@ -7,12 +7,14 @@ import Table from "./table";
 
 
 function App() {
-  return(
-    
-    <Table/>
-    
-  )
+  
+  return (
+    <>
+    <useEffect/>
  
+    </>
+  )
+
 }
 
 
