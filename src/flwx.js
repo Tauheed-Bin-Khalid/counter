@@ -1,27 +1,30 @@
+
 // import "./App.css"
 
-// function App() {
+// function BookList() {
 
-//   return (
-//     <div style={{display:"flex", height:"100vh",backgroundColor:"grey",flexWrap:"wrap",justifyContent:"center"}} >
+//   return (<section>
+//    <Book/>
+//    <Book/>
+//    <Book/>
+//    <Book/>
+//    <Book/>
+//   </section>);
+//   const Book = () => {
+//     return <article>
+//       <Image></Image>
+//     </article>
 
-//       <div style={{ width: "200px",margin:"10px", height: "200px", backgroundColor: "red" }}>
-//       </div>
-//       <div style={{ width: "200px",margin:"10px", height: "200px", backgroundColor: "green" }}>
-//       </div>
-//       <div style={{ width: "200px",margin:"10px", height: "200px", backgroundColor: "yellow" }}>
-//       </div>
-//       <div style={{ width: "200px",margin:"10px", height: "200px", backgroundColor: "blue" }}>
-//       </div>
-//       <div style={{ width: "200px",margin:"10px", height: "200px", backgroundColor: "pink" }}>
-//       </div>
-//       <div style={{ width: "200px",margin:"10px", height: "200px", backgroundColor: "black" }}>
-//       </div>
-//       <div style={{ width: "200px",margin:"10px", height: "200px", backgroundColor: "black" }}>
-//       </div>
+//   }
+//   const Image = () => <img src=" "  alt=""/>
+
+//     return
+   
+     
+     
       
-//     </div>
-//   );
+   
+  
 // }
 
 // export default App;
